@@ -10,3 +10,12 @@ df = pd.read_csv(r'dataset.csv')
 df.head()
 
 ##........................................................##
+#check null/nan values
+df.isnull().sum()
+df.isna().sum()
+
+df.isnull().sum().any
+df.isna().sum().any
+
+
+##........................................................##
